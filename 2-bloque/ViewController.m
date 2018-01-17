@@ -20,9 +20,10 @@
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (IBAction)btnShowSecondVC:(UIButton *)sender {
+    
+    [self performSegueWithIdentifier:@"segueSecondVC" sender:nil];
+    
 }
 
 

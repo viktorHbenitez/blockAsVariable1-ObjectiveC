@@ -13,6 +13,7 @@
 		884F4BFA200FD679009B53D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 884F4BF9200FD679009B53D6 /* Assets.xcassets */; };
 		884F4BFD200FD679009B53D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 884F4BFB200FD679009B53D6 /* LaunchScreen.storyboard */; };
 		884F4C00200FD679009B53D6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 884F4BFF200FD679009B53D6 /* main.m */; };
+		884F4C08200FD6FE009B53D6 /* BDMSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 884F4C07200FD6FE009B53D6 /* BDMSecondViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		884F4BFC200FD679009B53D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		884F4BFE200FD679009B53D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		884F4BFF200FD679009B53D6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		884F4C06200FD6FE009B53D6 /* BDMSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BDMSecondViewController.h; sourceTree = "<group>"; };
+		884F4C07200FD6FE009B53D6 /* BDMSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BDMSecondViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				884F4BFB200FD679009B53D6 /* LaunchScreen.storyboard */,
 				884F4BFE200FD679009B53D6 /* Info.plist */,
 				884F4BFF200FD679009B53D6 /* main.m */,
+				884F4C06200FD6FE009B53D6 /* BDMSecondViewController.h */,
+				884F4C07200FD6FE009B53D6 /* BDMSecondViewController.m */,
 			);
 			path = "2-bloque";
 			sourceTree = "<group>";
@@ -144,6 +149,7 @@
 			files = (
 				884F4BF5200FD679009B53D6 /* ViewController.m in Sources */,
 				884F4C00200FD679009B53D6 /* main.m in Sources */,
+				884F4C08200FD6FE009B53D6 /* BDMSecondViewController.m in Sources */,
 				884F4BF2200FD679009B53D6 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
