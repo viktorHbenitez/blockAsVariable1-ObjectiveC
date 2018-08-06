@@ -7,11 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyBlock.h"
+
 
 @interface ViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UILabel *lblShowText;
-
 
 @end
 

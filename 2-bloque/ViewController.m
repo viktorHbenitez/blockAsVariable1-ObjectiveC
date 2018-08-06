@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
@@ -16,13 +17,35 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+
 }
 
 
 - (IBAction)btnShowSecondVC:(UIButton *)sender {
+    [self performSegueWithIdentifier:@"segueSecondVC" sender:sender];
     
-    [self performSegueWithIdentifier:@"segueSecondVC" sender:nil];
+}
+
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender{
+    
+    if ([[segue identifier] isEqualToString:@"segueSecondVC"]) {
+        
+        NSLog(@"Podemos enviar datos a la siguinte vista");
+        
+        SecondViewController *VC = segue.destinationViewController;
+        
+        // 3. Define the block
+        [VC sendBlkNIP:^(NSString *strNIP) {  // retrive the result to the block when is invoke
+            
+            self.lblShowText.text = strNIP;
+            
+        }];
+        
+        
+    }
+    
     
 }
 

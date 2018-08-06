@@ -7,12 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "MyBlock.h"
 
-@interface BDMSecondViewController : UIViewController
+@interface SecondViewController : UIViewController
 
 @property (weak, nonatomic) IBOutlet UITextField *txfNIP;
 
+//@property blkResultNIPHandler blkSetNIP;
 
+-(void)sendBlkNIP:(blkResultNIPHandler)handler;
 
 
 @end
